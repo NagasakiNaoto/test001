@@ -39,7 +39,7 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: ${{ env.14 }}
+        node-version: ${{ env.NODE_VERSION }}
         cache: 'npm'
         cache-dependency-path: ./frontend/yarn.lock
 
